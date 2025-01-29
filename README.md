@@ -54,7 +54,7 @@ python ./evaluate_end2end.py --task E2E --data [eval_data] --model [saved_model_
 ```
 
 ## Acknowledgement
-Our scripts are mainly based on the  [TextEE](https://arxiv.org/abs/2311.09562) framework. We deeply thank the contribution from the authors of the paper.
+Our scripts are developed based on the  [TextEE](https://arxiv.org/abs/2311.09562) framework. We deeply appreciate the contribution from the authors of the paper.
 
 ## Citation
 ```bib
