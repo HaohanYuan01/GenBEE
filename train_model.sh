@@ -1,0 +1,1 @@
+python train.py --config ./config_GenBEE.json --seed 42
