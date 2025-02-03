@@ -10,29 +10,7 @@ logger = logging.getLogger(__name__)
 VALID_TASKS = ["E2E", "ED", "EAE", "EARL"]
 
 TRAINER_MAP = {
-    ("DyGIEpp", "E2E"): DyGIEppE2ETrainer,
-    ("OneIE", "E2E"): OneIEE2ETrainer,
-    ("CRFTagging", "ED"): CRFTaggingEDTrainer, 
-    ("CRFTagging", "EAE"): CRFTaggingEAETrainer, 
-    ("EEQA", "ED"): EEQAEDTrainer, 
-    ("EEQA", "EAE"): EEQAEAETrainer, 
-    ("RCEE", "ED"): RCEEEDTrainer, 
-    ("RCEE", "EAE"): RCEEEAETrainer, 
-    ("TagPrime", "ED"): TagPrimeEDTrainer, 
-    ("TagPrime", "EAE"): TagPrimeEAETrainer, 
-    ("QueryAndExtract", "ED"): QueryAndExtractEDTrainer,
-    ("QueryAndExtract", "EAE"): QueryAndExtractEAETrainer,
-    ("Degree", "E2E"): DegreeE2ETrainer,
-    ("Degree", "ED"): DegreeEDTrainer,
-    ("Degree", "EAE"): DegreeEAETrainer,
-    ("UniST", "ED"): UniSTEDTrainer,
-    ("CEDAR", "ED"): CEDAREDTrainer,
-    ("PAIE", "EAE"): PAIEEAETrainer, 
-    ("XGear", "EAE"): XGearEAETrainer,
-    ("BartGen", "EAE"): BartGenEAETrainer,
-    ("Ampere", "EAE"): AmpereEAETrainer,
-    ("AMRIE", "E2E"): AMRIEE2ETrainer,
-    ("GenBEE", "E2E"): GenBeeE2ETrainer,
+    ("GenBEE", "E2E"): GenBeeE2ETrainer
 }
 
 def load_config(config_fn):
